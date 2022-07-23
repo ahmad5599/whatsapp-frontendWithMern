@@ -1,10 +1,17 @@
 import React from "react";
 import "./Sidebar.css";
+import DonutLargeIcon from "@mui/icons-material/DonutLarge";
 
 function Sidebar() {
   return (
-    <div className="Sidebar">
-      <h1>Sidebar</h1>
+    <div className="sidebar">
+      <div className="sidebar__header">
+        <div className="sidebar__headerRight">
+          <DonutLargeIcon />
+          <ChatIcon />
+        </div>
+        <div className="sidebar__headerAvatar"></div>
+      </div>
     </div>
   );
 }

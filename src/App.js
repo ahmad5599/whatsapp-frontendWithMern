@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app">
       {/* <h1>༼ つ ◕_◕ ༽つLets gooo!!!(╯°□°）╯︵ ┻━┻</h1> */}
-      <div className="app_body">
+      <div className="app__body">
         <Sidebar />
         <Chat />
       </div>
